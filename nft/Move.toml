@@ -1,0 +1,11 @@
+[package]
+name = "nft"
+version = "0.0.1"
+published-at = "0xdc3da7a71b6d83f4022be832fd03e8004a23d537467d7d5b11b58fe0ca63707c"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+nft =  "0xdc3da7a71b6d83f4022be832fd03e8004a23d537467d7d5b11b58fe0ca63707c"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"

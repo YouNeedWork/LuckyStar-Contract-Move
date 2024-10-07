@@ -1,0 +1,20 @@
+[package]
+name = "games"
+version = "0.0.1"
+published-at = "0xbd971c49521f2e144ac79ad4dafcc56ecb3edba77ff34bc620707b9dd0267bdd"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+token = { local = "../token" }
+admin = { local = "../admin" }
+utils = { local = "../utils" }
+nft = { local = "../nft" }
+xluck = { local = "../xluck" }
+llp = { local = "../llp" }
+newnft= {local = "../newnft"}
+
+
+[addresses]
+games = "0xbd971c49521f2e144ac79ad4dafcc56ecb3edba77ff34bc620707b9dd0267bdd"
+sui = "0x2"
+std = "0x1"

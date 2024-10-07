@@ -1,0 +1,13 @@
+[package]
+name = "admin"
+version = "0.0.1"
+published-at = "0xaff8c4874f0145d8d586aff69fdd8de07276200c985ce4878d05bddc6854a0ba"
+
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+
+[addresses]
+admin =  "0xaff8c4874f0145d8d586aff69fdd8de07276200c985ce4878d05bddc6854a0ba"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"

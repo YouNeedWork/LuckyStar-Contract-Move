@@ -1,0 +1,10 @@
+[package]
+name = "llp"
+version = "0.0.1"
+published-at="0x57bc0cb2b2791a7310e50f71d91c913e8a1666f44a55893b659d83e0006b2939"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+llp = "0x57bc0cb2b2791a7310e50f71d91c913e8a1666f44a55893b659d83e0006b2939"

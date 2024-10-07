@@ -1,0 +1,12 @@
+[package]
+name = "esluck"
+version = "0.0.1"
+published-at = "0x6a4dfdc99df393fb981411e0f92d374afc98f8565b5c1e982948c008a70948d5"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", rev = "mainnet", subdir = "crates/sui-framework/packages/sui-framework" }
+
+token = {local = "../token" }
+
+[addresses]
+esluck = "0x6a4dfdc99df393fb981411e0f92d374afc98f8565b5c1e982948c008a70948d5"

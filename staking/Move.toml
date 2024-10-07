@@ -1,0 +1,21 @@
+[package]
+name = "staking"
+version = "0.0.1"
+published-at = "0x211a06064481ee7b620e702a1025731ab44ad8492917b1cbd2f9666731cdd20f"
+
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", rev = "mainnet", subdir = "crates/sui-framework/packages/sui-framework" }
+admin = { local = "../admin" }
+token = { local = "../token" }
+luck = { local = "../luck" }
+utils = {local = "../utils"}
+llp = {local="../llp"}
+esluck= {local="../esluck"}
+xluck = {local="../xluck"}
+
+
+
+[addresses]
+staking =  "0x211a06064481ee7b620e702a1025731ab44ad8492917b1cbd2f9666731cdd20f"
+sui =  "0x2"

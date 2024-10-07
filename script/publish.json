@@ -1,0 +1,15 @@
+{
+  "packageId": "0xfbfd8fc70823250ac1c6740c8e9f4442b2d66dd37828d8604a0fd7a9fb8e787b",
+  "manageType": "0xfbfd8fc70823250ac1c6740c8e9f4442b2d66dd37828d8604a0fd7a9fb8e787b::admin::Manage",
+  "luckType": "0xfbfd8fc70823250ac1c6740c8e9f4442b2d66dd37828d8604a0fd7a9fb8e787b::luck::LUCK",
+  "esLuckType": "0xfbfd8fc70823250ac1c6740c8e9f4442b2d66dd37828d8604a0fd7a9fb8e787b::esLuck::ESLUCK",
+  "xLuckType": "0xfbfd8fc70823250ac1c6740c8e9f4442b2d66dd37828d8604a0fd7a9fb8e787b::xLuck::XLUCK",
+  "llpType": "0xfbfd8fc70823250ac1c6740c8e9f4442b2d66dd37828d8604a0fd7a9fb8e787b::llp::LLP",
+  "suiType": "0xfbfd8fc70823250ac1c6740c8e9f4442b2d66dd37828d8604a0fd7a9fb8e787b::sui::SUI",
+  "manageId": "0xa48c496168e5721917aca9562289098e0bd4ea41e8a53e21e23f4a54c52b129e",
+  "luckId": "0x06bb72ba5971b0d1d960f0dc813cd2cef65d8091e3375312c0e204d162ed3b61",
+  "suiId": "0x72072a98fa941479fba7006bd084aedb94f90592fa4f56f9f5776003c33c0f71",
+  "llpId": "0x512a6dfb33ac4da43c49fa7c10841baeaae1a726804f5477bd2f3345fb772336",
+  "xluckId": "0x32c01429dbb9f5ffd374f34bd4bd1e7486fdd6a4d647e05f45952597813252b0",
+  "esluckId": "0xbea373e40f2c4983235c1b1f05f8fa35943d5ce39fdf519d62db294ae48cced8"
+}

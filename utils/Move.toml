@@ -1,0 +1,12 @@
+[package]
+name = "utils"
+version = "0.0.1"
+published-at = "0x967b27a9015514855cbc4da46657a93b029bbed373fb45d9c214863e4efc6b17"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+
+[addresses]
+utils =  "0x967b27a9015514855cbc4da46657a93b029bbed373fb45d9c214863e4efc6b17"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"

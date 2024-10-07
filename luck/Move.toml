@@ -1,0 +1,11 @@
+[package]
+name = "luck"
+version = "0.0.1"
+published-at = "0x202591744d54ee4f4af736ef3b8508f3d46d982c36747d9587032bd549122179"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+luck = "0x202591744d54ee4f4af736ef3b8508f3d46d982c36747d9587032bd549122179"
+sui = "0000000000000000000000000000000000000000000000000000000000000002"

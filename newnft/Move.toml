@@ -1,0 +1,11 @@
+[package]
+name = "newnft"
+version = "0.0.1"
+published-at = "0x8e19b4b730e0c47c656f7479047e09776a35d7d3c06bef415fa27eca0c7291ea"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+newnft =  "0x8e19b4b730e0c47c656f7479047e09776a35d7d3c06bef415fa27eca0c7291ea"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"
